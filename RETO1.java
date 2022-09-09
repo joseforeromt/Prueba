@@ -3,9 +3,10 @@ import java.util.Scanner;
 class RETO1{
     private final Scanner scanner = new Scanner(System.in);
     public String read(){
+    	System.out.println("El G28 son unos tesos!");
         return this.scanner.nextLine();
     }
-    public void run(){
+    private void run(){
         //LEER DATOS DE INGRESO
         String[] entrada = read().split(" ");
         double masa = Double.parseDouble(entrada[0]);
